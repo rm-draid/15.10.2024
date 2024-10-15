@@ -1,0 +1,365 @@
+button {
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+button:hover {
+  background: white;
+  color: aqua;
+}
+
+.tab:hover {
+  background-color: #555;
+}
+
+.platform-logo:hover {
+  background: #a8ff35;
+}
+
+.view_more_trend {
+  background: black;
+  border-radius: 20px;
+  color: white;
+  margin-top: 40px;
+}
+
+.trial {
+  background: #a8ff35;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.join_now {
+  width: 180px;
+  height: 57px;
+  background: black;
+  color: white;
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.logo_black {
+  width: 170px;
+  height: 41px;
+}
+
+.container {
+  max-width: 1274px;
+  margin: auto;
+  width: 95%;
+  padding: 50px 20px;
+}
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.careers {
+  color: black;
+}
+
+/* Section 1 */
+.section-1 {
+  background: black;
+  color: white;
+}
+
+.get_started {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #a8ff35;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: limegreen;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links li {
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: limegreen;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn,
+.register-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.register-btn {
+  background-color: limegreen;
+  color: black;
+  border: none;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0 10px;
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.twiter {
+  width: 31.74px;
+  height: 31.74px;
+}
+
+/* Section 2 */
+.section-2 {
+  background-color: #a6ff00;
+  color: black;
+}
+
+.trend {
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* Section 3 */
+.companies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.company-logo img {
+  width: 250px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.company-logo img:hover {
+  transform: scale(1.1);
+}
+
+/* Section 4 */
+.platforms {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.platform-logo img {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Section 6*/
+.tweet_new {
+  gap: 60px;
+}
+.tweet_new .tweet {
+  margin-top: 30px;
+}
+
+.get_your {
+  background: #000000;
+  width: 100%;
+  padding: 80px;
+  min-height: 100vh;
+}
+.get_your .best_deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.get_your .best_deal .fkluchatil {
+  width: 104px;
+  height: 52px;
+}
+.get_your .personal {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  height: auto;
+  width: 100%;
+}
+.get_your .personal .personal_new {
+  border-radius: 20px;
+  background: white;
+  width: 360px;
+  min-height: 70vh;
+  height: auto;
+}
+
+.join_us {
+  background: #a8ff35;
+  width: 100%;
+  min-height: 80vh;
+  padding-top: 100px;
+}
+
+.privacy_policy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.privacy_policy .terms_conditions {
+  display: flex;
+  gap: 40px;
+}
+
+.burger {
+  display: none;
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .auth-buttons {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .tabs {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .findtrend_helps {
+    align-items: start;
+    text-align: left;
+    font-size: 20px;
+  }
+  .companies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .companies .company-logo > img {
+    width: 100%;
+  }
+  .platforms {
+    display: flex;
+    overflow: hidden;
+  }
+  .personal {
+    flex-wrap: wrap;
+  }
+  .personal .personal_new {
+    width: 339px;
+  }
+  .join_us {
+    min-height: 70vh;
+  }
+  .privacy_policy {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .privacy_policy .logo_black {
+    width: 170px;
+    height: 41px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+  }
+  .privacy_policy .terms_conditions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.nav {
+  background: #000000;
+}/*# sourceMappingURL=mayn.css.map */

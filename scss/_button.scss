@@ -1,0 +1,45 @@
+button {
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+button:hover {
+  background: white;
+  color: aqua;
+}
+
+.tab:hover {
+  background-color: #555;
+}
+.platform-logo:hover {
+  background: #a8ff35;
+}
+.view_more_trend {
+  background: black;
+  border-radius: 20px;
+  color: white;
+  margin-top: 40px;
+}
+.trial {
+  background: #a8ff35;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+.join_now {
+  width: 180px;
+  height: 57px;
+  background: black;
+  color: white;
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.logo_black {
+  width: 170px;
+  height: 41px;
+}

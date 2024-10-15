@@ -1,0 +1,63 @@
+@media (min-width: 320px) and (max-width: 640px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+  .auth-buttons {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .tabs {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .findtrend_helps {
+    align-items: start;
+    text-align: left;
+    font-size: 20px;
+  }
+  .companies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .company-logo > img {
+      width: 100%;
+    }
+  }
+  .platforms {
+    display: flex;
+    overflow: hidden;
+  }
+  .personal {
+    flex-wrap: wrap;
+    .personal_new {
+      width: 339px;
+    }
+  }
+  .join_us {
+    min-height: 70vh;
+  }
+  .privacy_policy {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+
+    .logo_black {
+      width: 170px;
+      height: 41px;
+      margin-left: 35%;
+      margin-bottom: 30px;
+    }
+    .terms_conditions {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+}
